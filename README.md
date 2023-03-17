@@ -1,6 +1,7 @@
 # OVERVIEW
 
 Git Repository for 20.440 pest 4 / final project
+
 Project title: Analysis of cochlear hair cell reprogramming in mice. 
 
 Hair cells in the inner ear are integral for proper hearing, and damage to these cells can lead to hearing loss. In mammals, these cells do not regenerate, yet this is not the case in some non-mammalian vertebrates. It has been shown that reprogramming cochlear cells with certain transcription factors can lead to partially enhanced hearing. We conduct further analysis on gene expression data for reprogrammed cochlear cells using a dataset from Iyer et al., 2022.
@@ -57,6 +58,7 @@ Analysis done on OSX 12.6
 2. download data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182202 and place into **data/raw/** directory (create if needed)
     - unzip GSM5520356_s9_rosa26WT_p8.tar.gz to get experiment directory
     - in experiment directory unzip *.tsv.gz and *.mtx.gz to get individual data files
+	- for the first figure, only the file matrix.mtx is used
 
 3. Run UMAP.py to generate the figure for pset 4.
 
